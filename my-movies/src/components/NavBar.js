@@ -6,10 +6,7 @@ const NavBar = ({ isDarkMode, onToggleDarkMode }) => {
 
         <header>
             <nav>
-                <h1 className="branding">
-                    <span className="logo">{"//"}</span>
-                    Home
-                </h1>
+
                 <div className="navigation">
                     <a className="button" href="/movies">
                         Movies

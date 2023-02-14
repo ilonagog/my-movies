@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+//import Home from './components/Home';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
 
     <div className={isDarkMode ? "App" : "App light"}>
       <NavBar isDarkMode={isDarkMode} onToggleDarkMode={onToggleDarkMode} />
+      {/* <Home /> */}
       <h1>Hi</h1>
 
     </div>

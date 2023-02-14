@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --turquoise: #13c9bd;
+  --mid-turquoise: #161972;
+  --dark-turquoise: #458fa0;
+  --black: #030416;
+  --white: #f1f1f1;
+  --grey: #d6e2e7;
+  --dark-grey: #7f8a8e;
+  --yellow: #f9c51a;
+  --orange: #ff5c00;
+  --fuschia: #e80352;
+  --blue: #338fff;
+  --blue-dark: #145cb3;
+  --purple: #cda2ff;
+  --green: #00ef7c;
+  --color: var(--white);
+  --background: var(--black);
+  --primary: var(--turquoise);
+}
+
+
+.App {
+  color: var(--color);
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+.App.light {
+  --color: var(--black);
+  --background: var(--white);
+  --primary: var(--dark-turquoise);
+}
